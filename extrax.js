@@ -3,6 +3,12 @@ const bot = new aoi.Bot({
    token: process.env.token, ////token enve
    prefix:"?"
 })
+/////READY/////
+bot.readyCommand({
+  channel:"LOG KANAL İD",
+  AKTİFİM
+})
+
 
 ////HANDLER//////
 
